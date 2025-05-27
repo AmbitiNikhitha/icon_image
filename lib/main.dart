@@ -4,10 +4,8 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: const Text("Icons")),
-        body: const Center(
-          child: Icon(Icons.favorite, size: 50, color: Colors.red),
-        ),
+        appBar: AppBar(title: const Text("Images from assets")),
+        body: Center(child: Image.asset("Assets/images/1.jpg")),
       ),
     ),
   );
